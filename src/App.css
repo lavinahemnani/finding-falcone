@@ -1,38 +1,74 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form input[type="number"] {
+	padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: 1px solid black;
+  width: 250px;
+  float: right;
+  margin-right: 20px;
+} 
+.form input[type="number"]:focus
+{
+	border: 1px solid #43D1AF;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.MuiSvgIcon-root { cursor: pointer; }
+.destination-div{
+  width: 235px!important;
+  float: left;
+  padding-left: 50px!important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.text-class{
+  text-align: center;
+  left: 50%;
+  margin-top: 300px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.button-class{
+  background-color: #4CAF50; /* Green */
+  border: none;
   color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.header {
+  text-align: center;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.header a {
+  float: center;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header a:hover {
+  background-color: #ddd;
+  color: black;
 }
+
+.header-right {
+  float: right;
+}
+
