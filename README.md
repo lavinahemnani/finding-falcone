@@ -1,5 +1,5 @@
 # Finding Falcone!
-A frontend app challenge, provided by the Geektrust.
+A frontend app challenge.
 
 # Pre-requisite
 1. Node.js should be already installed on your system.
